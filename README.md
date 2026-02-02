@@ -1,4 +1,5 @@
-## Overview
+# Steganography Image Encoder & Decoder
+### Overview
  This tool hides text inside a image using LSB steganography. It works by encoding secret data in the least significant bits of the image pixels, and you can use it to hide a message or password while keeping the image visually the same. The encoder embeds your secret text and the decoder extracts it. This makes it useful for sending passwords more safely, because instead of sending the password as plain text, you place it inside an image, and only someone with the decoder tool can read the hidden message.
 or this
 ## How to install
